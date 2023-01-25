@@ -18,6 +18,7 @@
     display:grid;
     grid-template-columns: 7fr 3fr;
 }
+
 .footer-actual h2{
     font-family: 'Apercu';
     font-style: normal;
@@ -27,6 +28,19 @@
     padding:40px;
     color: #07DE04;
     text-shadow: 0px 0px 15px rgba(7, 222, 4, 0.5);
+}
+@media screen and (max-width:1000px){
+    .footer-actual{
+        display:block;
+        height:auto;
+    }
+    .footer-actual h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footer-sub{
+        text-align: center;
+    }
 }
 .flex-socials{
     display: grid;

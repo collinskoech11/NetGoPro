@@ -7,3 +7,8 @@
 .main-nav-container *{
     color:#07DE04;
 }
+@media screen and (max-width:1000px){
+    .main-nav-container{
+        display:none;
+    }
+}

@@ -13,7 +13,7 @@ function Services() {
         <div>{next}</div>
       </div>
       <div className="button-container">{Btn}</div>
-      <div className="proccess">
+      <div className="proccess" style={{marginBottom:"100px"}}>
         <div className="sub-process">
             <div className="rec">
 

@@ -1,6 +1,8 @@
 import React from "react";
 import { next, prev, Btn, nextsmall, divs } from "../icons";
 import DianiApp from "../assets/DianiApp.png"
+import OneGb from "../assets/one.png"
+import ThreeGb from "../assets/Three.png"
 
 function Home() {
   return (
@@ -24,9 +26,24 @@ function Home() {
             fit your household / internet needs.
           </h5>
           <div className="cards">
-            <div className="card"></div>
-            <div className="card"></div>
-            <div className="card"></div>
+            <div className="card">
+                <img src={OneGb} alt="bundles"/>
+                <p>Valid daily for 6 hours.</p>
+                <p>Ksh 20</p>
+                <button>Buy</button>
+            </div>
+            <div className="card">
+              <img src={ThreeGb} alt="bundlesThree"/>
+              <p>Valid daily for 10 hours.</p>
+              <p>Ksh 40</p>
+              <button>Buy</button>
+            </div>
+            <div className="card">
+              <img src={OneGb} alt="bundles"/>
+              <p>Valid daily for 10 hours.</p>
+              <p>Ksh 30</p>
+              <button>Buy</button>
+            </div>
           </div>
           <div className="more">
             <div></div>
@@ -119,7 +136,7 @@ function Home() {
           </div>
         </div>
         <div className="started-sub">
-            <img src={DianiApp} alt="" style={{marginLeft:"150px"}} />
+            {/* <img src={DianiApp} alt="" style={{marginLeft:"150px"}} /> */}
         </div>
       </div>
     </>

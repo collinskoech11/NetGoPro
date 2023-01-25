@@ -1,0 +1,38 @@
+.contact-main {
+    margin: auto;
+    width: 80vw;
+    height: auto;
+    background: radial-gradient(268.32% 268.32% at 50% -168.32%, #07DE04 0%, #030302 100%);
+    border: 1px solid #07DE04;
+    backdrop-filter: blur(250px);
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact-main input {
+    width: 80%;
+    margin-bottom: 30px;
+    background: #030302;
+    border: 1px solid #07DE04;
+    border-radius: 10px;
+    height:60px;
+}
+.contact-main input::placeholder{
+    padding-left: 20px;;
+}
+.contact-main h3 {
+    color: #fff;
+}
+
+.submit {
+    background-color: #07DE04;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 700;
+    height: 50px;
+    width: 100px;
+}
