@@ -1,0 +1,9 @@
+.main-nav-container{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr 4fr;
+    width:100vw;
+    align-items: center;
+}
+.main-nav-container *{
+    color:#07DE04;
+}
