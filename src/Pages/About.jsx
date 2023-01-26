@@ -1,7 +1,12 @@
 import React from "react";
 import { next, prev, Btn, nextsmall } from "../icons";
+import "../css/about.css";
 import servicesone from "../assets/servicesone.png";
 import servicestwo from "../assets/servicestwo.png";
+import onenout from "../assets/oneanout.png";
+import twoout from "../assets/twoout.png";
+import threeout from "../assets/threeout.png";
+import fourout from "../assets/fourout.png";
 
 function About() {
   return (
@@ -48,10 +53,63 @@ function About() {
           <img src={servicestwo} alt="services description" />
         </div>
       </div>
+      <div className="elevated">
+        <h2>Enjoy an Elevated Internet Experience</h2>
+      </div>
+      <div className="elevated-tabs">
+        <div className="elevated-tab-item">
+          <div>
+            <img src={onenout} alt="onenout image" />
+          </div>
+          <div>
+            <p>
+              After evaluating the layout of your home, or office space and
+              discussing your specific wifi needs, the tech will place equipment
+              for maximum performance.
+            </p>
+          </div>
+        </div>
+        <div className="elevated-tab-item">
+          <div>
+            <img src={twoout} alt="onenout image" />
+          </div>
+          <div>
+            <p>
+              You have a support team on call all the time. If you have a
+              problem with your wifi or need help connecting another device,
+              call us and you’ll be put in touch with our support team. If
+              something requires a tech to visit your home / office, we will do
+              that at no additional cost.
+            </p>
+          </div>
+        </div>
+        <div className="elevated-tab-item">
+          <div>
+            <img src={threeout} alt="onenout image" />
+          </div>
+          <div>
+            <p>
+              We are live on our social media platforms where we provide new
+              insights, customer support and promos.
+            </p>
+          </div>
+        </div>
+        <div className="elevated-tab-item">
+          <div>
+            <img src={onenout} alt="onenout image" />
+          </div>
+          <div>
+            <p>
+              With our home unlimited internet data, you can stream, binge watch
+              and download anything at any time.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="started">
         <div
           className="started-sub"
-          style={{ textAlign: "center", width: "69.5vw", margin: "auto"}}
+          style={{ textAlign: "center", width: "69.5vw", margin: "auto" }}
         >
           <h3>Faqs</h3>
           <p>

@@ -1,5 +1,6 @@
 import React from "react";
 import {Btn, prev, next} from "../icons"
+import cctv from "../assets/cctv.png"
 
 function Services() {
   return (
@@ -16,7 +17,7 @@ function Services() {
       <div className="proccess" style={{marginBottom:"100px"}}>
         <div className="sub-process">
             <div className="rec">
-
+                <img src={cctv} alt="cctv image" style={{}}/>
             </div>
         </div>
         <div className="sub-process">
