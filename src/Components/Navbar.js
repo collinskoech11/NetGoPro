@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom"
 import "../css/nav.css";
-import NetGoLogo from "../assets/netgopro_logo.png";
+import bigLogo from "../assets/bigLogo.png";
 import Vector from "../assets/Vector.png";
 import closer from "../assets/closer.png"
 
@@ -38,7 +38,7 @@ function Navbar() {
       <div className="main-nav-container">
         <div>
           <img
-            src={NetGoLogo}
+            src={bigLogo}
             alt="logo on the nav"
             style={{ margin: "auto" }}
           />
