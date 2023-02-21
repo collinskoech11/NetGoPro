@@ -1,20 +1,21 @@
 import React from "react";
-import { next, prev, Btn, nextsmall, divs } from "../icons";
-import DianiApp from "../assets/DianiApp.png"
+import { Btn, nextsmall, divs } from "../icons";
+import NETGOPRO from "../assets/NETGOPRO.png"
 import OneGb from "../assets/one.png"
 import ThreeGb from "../assets/Three.png"
+import spiral from "../assets/spiral.png"
 
 function Home() {
   return (
     <>
       <div className="main-text">
-        <h1>NETGOPRO</h1>
+        <img src={NETGOPRO} alt="logo this" style={{maxWidth:"80vw"}}/>
       </div>
-      <div className="next-prev">
+      {/* <div className="next-prev">
         <div></div>
         <div>{prev}</div>
         <div>{next}</div>
-      </div>
+      </div> */}
       <div className="button-container">
         {Btn}
       </div>
@@ -54,11 +55,6 @@ function Home() {
       </div>
       <div className="proccess">
         <div className="sub-process">
-            <div className="rec">
-
-            </div>
-        </div>
-        <div className="sub-process">
             <h2>Why NetGoPro ?</h2><br/><br/>
             <h3>Quick Installation</h3>
             <p>Connect without the long wait. Getting online is 
@@ -83,7 +79,11 @@ function Home() {
                 cases, without having to send a technician.
             </p><br/><br/>
         </div>
-        
+        <div className="sub-process">
+            <div className="rec" style={{alignItems:"center", display:"flex"}}>
+              <img src={spiral} alt="gears" style={{margin:"auto"}}/>
+            </div>
+        </div>
       </div>
       <div className="services">
         <div className="services-sub">
@@ -96,8 +96,7 @@ function Home() {
                 networking products and office network setup.
             </p>
         </div>
-        <div className="services-sub">
-            <div className="spacer"></div>
+        <div className="services-sub" style={{ alignItems:"center", textAlign:"center"}}>
             {divs}
         </div>
       </div>

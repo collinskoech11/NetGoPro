@@ -2,8 +2,8 @@
     margin: auto;
     width: 80vw;
     height: auto;
-    background: radial-gradient(268.32% 268.32% at 50% -168.32%, #07DE04 0%, #030302 100%);
-    border: 1px solid #07DE04;
+    background: radial-gradient(268.32% 268.32% at 50% -168.32%, #9886FE 0%, #030302 100%);
+    border: 1px solid #9886FE;
     backdrop-filter: blur(250px);
     text-align: center;
     align-items: center;
@@ -17,7 +17,7 @@
     width: 80%;
     margin-bottom: 30px;
     background: #030302;
-    border: 1px solid #07DE04;
+    border: 1px solid #9886FE;
     border-radius: 10px;
     height:60px;
 }
@@ -29,7 +29,7 @@
 }
 
 .submit {
-    background-color: #07DE04;
+    background-color: #9886FE;
     border-radius: 15px;
     color: #fff;
     font-weight: 700;

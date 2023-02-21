@@ -1,6 +1,6 @@
 
 body{
-    background-color:  #030302;
+    background:  radial-gradient(250.32% 268.32% at 50% -168.32%, #9886FE 0%, #030302 100%);
     max-width: 100vw;
     overflow-x:hidden;
 }
@@ -23,9 +23,9 @@ a{
     line-height: 120px;
     padding-left: 50px;
     /* identical to box height */
-    color: #07DE04;
+    color: #9886FE;
     font-family: 'Zen Tokyo Zoo';
-    text-shadow: 0px 2px 15px #07DE04;
+    text-shadow: 0px 2px 15px #9886FE;
 }
 .next-prev{
     display:grid;
@@ -50,7 +50,7 @@ a{
     font-size: 48px;
     line-height: 60px;
     /* identical to box height */
-    color: #07DE04;
+    color: #9886FE;
 }
 .package-text{
     width:90%;
@@ -72,7 +72,7 @@ a{
 }
 .card{
     width:32%;
-    border:1px solid greenyellow;
+    border:1px solid #9886FE;
     border-radius:10px;
     height:auto;
     text-align: center;
@@ -95,7 +95,7 @@ a{
     width:70px;
     height:40px;
     border-radius: 15px;
-    background:#07DE04;
+    background:#9886FE;
     color:#fff;
     border:none;
     font-weight: 700;
@@ -107,7 +107,7 @@ a{
     margin-top:20px;
     justify-content: center;
     align-items: center;
-    color: #07DE04;
+    color: #9886FE;
 }
 .proccess{
     display: grid;
@@ -116,7 +116,7 @@ a{
     margin:auto;
 }
 .proccess h2, h3{
-    color:#07DE04;
+    color:#9886FE;
 }
 .proccess h2{
     font-family: 'Apercu';
@@ -144,19 +144,25 @@ a{
 }
 .rec{
     width:50%;
-    height: 80%;
+    height: auto;
     margin:auto;
     margin-top:20%;
-    border:1px solid #07DE04;
-    box-shadow: 0px 0px 30px #07DE04;
+    border:1px solid #9886FE;
+    box-shadow: 0px 0px 30px #9886FE;
     border-radius:10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin:auto;
+}
+.rec img{
+    max-width:90%;
 }
 @media screen and (max-width:1000px){
     .proccess{
         display:block;
     }
     .rec{
-        display: none;
+        width: 100%;
     }
 }
 .services{
@@ -166,6 +172,16 @@ a{
     grid-template-columns: 1fr 1fr;
     margin-top:50px;
 }
+.sub-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.sub-process h3{
+    align-self: left;
+    width: 90%;
+}
 @media screen and (max-width:1000px){
    .services{
     display: block;
@@ -173,6 +189,9 @@ a{
    .services-sub{
     max-width: 95vw;
     overflow-x: hidden;
+   }
+   .services-sub *{
+    max-width: 95%;
    }
 }
 .services p{
@@ -191,11 +210,16 @@ a{
     font-size: 40px;
     line-height: 50px;
     /* identical to box height */
-    color: #07DE04;
+    color: #9886FE;
 }
 .spacer{
     width:100%;
     height: 100px;
+}
+@media screen and (max-width:1000px){
+    .spacer{
+        display: none;
+    }
 }
 .trust{
     display:grid;
@@ -210,7 +234,7 @@ a{
     width: 40vw;
     height: 40vw;
     border-radius: 50%;
-    border:1px solid #07DE04;
+    border:1px solid #9886FE;
 }
 @media screen and (max-width:1000px){
     .trust{
@@ -266,8 +290,8 @@ a{
     max-height: 400px;
     margin-top:100px;
     padding-top:40px;
-    background: radial-gradient(268.32% 268.32% at 50% -168.32%, #07DE04 0%, #030302 100%);
-    border: 1px solid #07DE04;
+    background: radial-gradient(268.32% 268.32% at 50% -168.32%, #9886FE 0%, #030302 100%);
+    border: 1px solid #9886FE;
     backdrop-filter: blur(250px);
     margin-bottom:200px;
 }
@@ -279,7 +303,7 @@ a{
     font-size: 40px;
     line-height: 50px;
     /* identical to box height */
-    color: #07DE04;
+    color: #9886FE;
     text-shadow: 0px 0px 15px rgba(7, 222, 4, 0.5);
     margin:40px;
 }
